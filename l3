@@ -1,0 +1,48 @@
+    public static void main(String[] args) {
+
+        System.out.println(54 + 16);
+        System.out.println(50 / 3);
+        System.out.println(-5 + 8 * 6);
+        System.out.println((55 + 9) % 9);
+        Scanner scanner = new Scanner(System.in);
+        int int1 = scanner.nextInt();
+        System.out.println(int1 * int1);
+
+        double summ = 0.0;
+
+
+        for (int i = 0; i < 10; i++) {
+            summ += i;
+
+        }
+        summ = summ / 10;
+
+
+        System.out.println( summ);
+
+
+        //Стоимость продукт А
+        double productA = 1000.0;
+        //Стоимость продукт B
+        double  productB = 500.0;
+        //купили ли продукт А
+        boolean boughtProductA = true;
+        //купили ли продукт B
+        boolean boughtProductB = true;
+        //сумма покупки
+        double purchaseAmount = 0.0;
+        //если купили 2 продукта
+        if ((boughtProductA == boughtProductB) && (boughtProductA == true)) {
+            purchaseAmount = productA + productB - 100;
+            double i1 = productA + productB; //1500
+
+            System.out.println( (1 - (purchaseAmount / (productA + productB))));
+
+        } else if (boughtProductA = true) {
+            purchaseAmount = 1000;
+        } else if (boughtProductB = true) {
+            purchaseAmount = 500;
+        }
+
+
+    }
